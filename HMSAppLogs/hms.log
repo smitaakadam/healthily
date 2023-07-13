@@ -1,0 +1,38 @@
+2023-02-25 10:19:46 [restartedMain] INFO  com.hms.api.HmsApplication - Starting HmsApplication using Java 1.8.0_73 on LENOVO with PID 704 (C:\Workspace\final industrialproject\HEALTHIFY\target\classes started by RAM in C:\Workspace\final industrialproject\HEALTHIFY)
+2023-02-25 10:19:46 [restartedMain] INFO  com.hms.api.HmsApplication - No active profile set, falling back to default profiles: default
+2023-02-25 10:19:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-25 10:19:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-25 10:19:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-25 10:19:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2023-02-25 10:19:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2023-02-25 10:19:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-25 10:19:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-02-25 10:19:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-25 10:19:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2097 ms
+2023-02-25 10:19:49 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-25 10:19:50 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-25 10:19:50 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-25 10:19:51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/v2/api-docs'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/configuration/ui'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-resources/**'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/configuration/security'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/swagger-ui.html/**'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f219409, org.springframework.security.web.context.SecurityContextPersistenceFilter@52432e48, org.springframework.security.web.header.HeaderWriterFilter@cea85be, org.springframework.security.web.authentication.logout.LogoutFilter@6b1c3571, com.hms.api.config.JwtAuthenticationFilter@22445200, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62dc8655, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cd1b2db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5293cc90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d197d69, org.springframework.security.web.session.SessionManagementFilter@116d7fda, org.springframework.security.web.access.ExceptionTranslationFilter@1fb871ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a4e6097]
+2023-02-25 10:19:52 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-25 10:19:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-02-25 10:19:53 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-25 10:19:53 [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2023-02-25 10:19:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2023-02-25 10:19:53 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2023-02-25 10:19:53 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-02-25 10:19:53 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2023-02-25 10:19:53 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: getAppointmentsByDoctorIdAndAppointmentDateUsingGET_1
+2023-02-25 10:19:53 [restartedMain] INFO  com.hms.api.HmsApplication - Started HmsApplication in 7.45 seconds (JVM running for 8.517)
+2023-02-25 10:20:57 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:20:57 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-25 10:20:57 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-02-25 10:21:07 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /swagger-ui/
+2023-02-25 10:21:08 [http-nio-8090-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2023-02-25 10:23:30 [http-nio-8090-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
